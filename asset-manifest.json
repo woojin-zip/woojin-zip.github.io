@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7080649a.css",
-    "main.js": "/static/js/main.53900fe8.js",
+    "main.css": "/static/css/main.02b76601.css",
+    "main.js": "/static/js/main.99829234.js",
     "static/js/787.20a967bd.chunk.js": "/static/js/787.20a967bd.chunk.js",
     "static/media/sama-port.jpg": "/static/media/sama-port.6d8106ec3a99de2b7fe5.jpg",
     "static/media/metro-port.jpg": "/static/media/metro-port.3942087f833a0ac42010.jpg",
@@ -11,19 +11,20 @@
     "static/media/SUITE-Medium.woff2": "/static/media/SUITE-Medium.1371105b6023153d3a9f.woff2",
     "static/media/sama-cover.jpg": "/static/media/sama-cover.ce40f7199b433bb6fc7a.jpg",
     "static/media/SUITE-Regular.woff2": "/static/media/SUITE-Regular.d1634611094d8cdb4256.woff2",
-    "static/media/profile.jpg": "/static/media/profile.f7d9fa9bec4dd73e305e.jpg",
+    "static/media/profile.jpg": "/static/media/profile.48bb27b8f7908874469a.jpg",
     "static/media/kumho-cover.jpg": "/static/media/kumho-cover.0d1963edaf6be0d1a4b9.jpg",
     "static/media/lala-cover.jpg": "/static/media/lala-cover.b6c91c64bd297e4cac16.jpg",
     "static/media/metro-cover.jpg": "/static/media/metro-cover.2fc245cdac86497ab098.jpg",
+    "static/media/todo-cover.jpg": "/static/media/todo-cover.58043af429a510133588.jpg",
     "static/media/portfolio-cover.jpg": "/static/media/portfolio-cover.1c43a28f8188fc25ad0a.jpg",
     "static/media/cacao.jpg": "/static/media/cacao.888a6ad24b853f3621e2.jpg",
     "index.html": "/index.html",
-    "main.7080649a.css.map": "/static/css/main.7080649a.css.map",
-    "main.53900fe8.js.map": "/static/js/main.53900fe8.js.map",
+    "main.02b76601.css.map": "/static/css/main.02b76601.css.map",
+    "main.99829234.js.map": "/static/js/main.99829234.js.map",
     "787.20a967bd.chunk.js.map": "/static/js/787.20a967bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7080649a.css",
-    "static/js/main.53900fe8.js"
+    "static/css/main.02b76601.css",
+    "static/js/main.99829234.js"
   ]
 }
