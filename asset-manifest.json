@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c318930c.css",
-    "main.js": "/static/js/main.a5c40eee.js",
+    "main.css": "/static/css/main.4015d7ab.css",
+    "main.js": "/static/js/main.ed3fbdf3.js",
     "static/js/787.20a967bd.chunk.js": "/static/js/787.20a967bd.chunk.js",
     "static/media/sama-port.jpg": "/static/media/sama-port.8a46697a3310e6620e99.jpg",
     "static/media/metro-port.jpg": "/static/media/metro-port.0096e07f3271aa3aa647.jpg",
@@ -56,7 +56,6 @@
     "static/media/paul3.jpg": "/static/media/paul3.b394124260da8c952fc8.jpg",
     "static/media/ia.jpg": "/static/media/ia.f7e39ad57ef3b82e9c76.jpg",
     "static/media/paul11.jpg": "/static/media/paul11.7aa2ce871f3b03bbae68.jpg",
-    "static/media/sci-cover.jpg": "/static/media/sci-cover.45e65ef54a37f5d0688e.jpg",
     "static/media/profile.jpg": "/static/media/profile.fb4f86a6df1f0f3ddd52.jpg",
     "static/media/kumho-cover.jpg": "/static/media/kumho-cover.0d1963edaf6be0d1a4b9.jpg",
     "static/media/lala-cover.jpg": "/static/media/lala-cover.b6c91c64bd297e4cac16.jpg",
@@ -66,12 +65,12 @@
     "static/media/todo-cover.jpg": "/static/media/todo-cover.58043af429a510133588.jpg",
     "static/media/cacao.jpg": "/static/media/cacao.888a6ad24b853f3621e2.jpg",
     "index.html": "/index.html",
-    "main.c318930c.css.map": "/static/css/main.c318930c.css.map",
-    "main.a5c40eee.js.map": "/static/js/main.a5c40eee.js.map",
+    "main.4015d7ab.css.map": "/static/css/main.4015d7ab.css.map",
+    "main.ed3fbdf3.js.map": "/static/js/main.ed3fbdf3.js.map",
     "787.20a967bd.chunk.js.map": "/static/js/787.20a967bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c318930c.css",
-    "static/js/main.a5c40eee.js"
+    "static/css/main.4015d7ab.css",
+    "static/js/main.ed3fbdf3.js"
   ]
 }
