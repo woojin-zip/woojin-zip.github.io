@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d0eb5d3e.css",
-    "main.js": "/static/js/main.aeea3be4.js",
+    "main.js": "/static/js/main.cacb8eaa.js",
     "static/js/787.20a967bd.chunk.js": "/static/js/787.20a967bd.chunk.js",
     "static/media/sama-port.jpg": "/static/media/sama-port.8a46697a3310e6620e99.jpg",
     "static/media/metro-port.jpg": "/static/media/metro-port.0096e07f3271aa3aa647.jpg",
@@ -66,11 +66,11 @@
     "static/media/cacao.jpg": "/static/media/cacao.888a6ad24b853f3621e2.jpg",
     "index.html": "/index.html",
     "main.d0eb5d3e.css.map": "/static/css/main.d0eb5d3e.css.map",
-    "main.aeea3be4.js.map": "/static/js/main.aeea3be4.js.map",
+    "main.cacb8eaa.js.map": "/static/js/main.cacb8eaa.js.map",
     "787.20a967bd.chunk.js.map": "/static/js/787.20a967bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0eb5d3e.css",
-    "static/js/main.aeea3be4.js"
+    "static/js/main.cacb8eaa.js"
   ]
 }
