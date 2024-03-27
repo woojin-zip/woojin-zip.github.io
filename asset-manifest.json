@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e66c824.css",
-    "main.js": "/static/js/main.d57d8498.js",
+    "main.css": "/static/css/main.7a79f907.css",
+    "main.js": "/static/js/main.85092aa4.js",
     "static/js/787.20a967bd.chunk.js": "/static/js/787.20a967bd.chunk.js",
     "static/media/sama-port.jpg": "/static/media/sama-port.8a46697a3310e6620e99.jpg",
     "static/media/port-port.jpg": "/static/media/port-port.254217444df9ee66a42f.jpg",
@@ -73,6 +73,7 @@
     "static/media/ia.jpg": "/static/media/ia.f7e39ad57ef3b82e9c76.jpg",
     "static/media/paul11.jpg": "/static/media/paul11.7aa2ce871f3b03bbae68.jpg",
     "static/media/happy6.jpg": "/static/media/happy6.6826841d5191394386a4.jpg",
+    "static/media/sci-cover.jpg": "/static/media/sci-cover.45e65ef54a37f5d0688e.jpg",
     "static/media/profile.jpg": "/static/media/profile.fb4f86a6df1f0f3ddd52.jpg",
     "static/media/kumho-cover.jpg": "/static/media/kumho-cover.0d1963edaf6be0d1a4b9.jpg",
     "static/media/paul-cover.jpg": "/static/media/paul-cover.3d0b885968e5fe29df50.jpg",
@@ -84,12 +85,12 @@
     "static/media/portfolio-cover.jpg": "/static/media/portfolio-cover.1c43a28f8188fc25ad0a.jpg",
     "static/media/cacao.jpg": "/static/media/cacao.888a6ad24b853f3621e2.jpg",
     "index.html": "/index.html",
-    "main.5e66c824.css.map": "/static/css/main.5e66c824.css.map",
-    "main.d57d8498.js.map": "/static/js/main.d57d8498.js.map",
+    "main.7a79f907.css.map": "/static/css/main.7a79f907.css.map",
+    "main.85092aa4.js.map": "/static/js/main.85092aa4.js.map",
     "787.20a967bd.chunk.js.map": "/static/js/787.20a967bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e66c824.css",
-    "static/js/main.d57d8498.js"
+    "static/css/main.7a79f907.css",
+    "static/js/main.85092aa4.js"
   ]
 }
