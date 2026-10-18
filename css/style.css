@@ -429,3 +429,9 @@ h1 span {
     }
 }
     
+/* Added projects follow the original cards and More interaction. */
+.sec4_con2_wrap { grid-row-gap: 20px; }
+.sec4_con2.hi { display: none; }
+
+/* Reserve the same image area as the original project cards. */
+.img-placeholder { background-color: #F4F4F4; }

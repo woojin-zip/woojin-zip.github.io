@@ -3,47 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>김우진의 포트폴리오</title>
+    <title>김우진 | 프론트엔드 &amp; 기획</title>
+    <meta name="description" content="프론트엔드 개발과 행사 기획·운영을 함께하는 김우진의 포트폴리오입니다.">
     <link rel="stylesheet" href="/css/style.css">
-    <script  src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <script>
-        $(function(){
-            let y = $('.sec1_nav_wrap').offset().top;
-            let y2 = $('#sec2').offset().top;
-            let y3 = $('#sec3').offset().top;
-            let y4 = $('#sec4').offset().top;
-            //console.log(y2);
-            //console.log(y3);
-
-            $(window).scroll(function() {
-                let scrollTop = $(window).scrollTop();
-                //console.log(scrollTop);
-
-                if (scrollTop >= y-60) {
-                    $('.sec1_nav_wrap').addClass('on');
-                } else {
-                    $('.sec1_nav_wrap').removeClass('on');
-                }
-
-                if (scrollTop >= y2) {
-                    $('.sec1_nav a').removeClass('on');
-                    $('.sec1_nav li:nth-child(1) a').addClass('on');
-                    if (scrollTop >= y3) {
-                        $('.sec1_nav a').removeClass('on');
-                        $('.sec1_nav li:nth-child(2) a').addClass('on');
-                    }
-                    if (scrollTop >= y4) {
-                        $('.sec1_nav a').removeClass('on');
-                        $('.sec1_nav li:nth-child(3) a').addClass('on');
-                    }
-                }
-            });
-        })
-    </script>
+    
+    
 </head>
 <body>
-    <h1 class="sec1_text1">안녕하세요,<br>프론트엔드 개발자<br><span>김우진</span>입니다.</h1>
-    <p class="sec1_text2">“사용자 경험을 디자인하고, 코드를 통해 완성합니다.”<br>디테일로 완성되는 프론트엔드 개발자 김우진입니다.</p>
+    <h1 class="sec1_text1">안녕하세요,<br>프론트엔드 &amp; 기획<br><span>김우진</span>입니다.</h1>
+    <p class="sec1_text2">“기획을 화면으로, 아이디어를 현장으로 구현합니다.”<br>프론트엔드 개발과 행사 기획·운영을 함께하는 김우진입니다.</p>
     <a href="/이력서_김우진.pdf" download="이력서_김우진" class="sec1_btn1">이력서 다운로드</a>
     <div class="sec1_nav_wrap">
         <ul class="sec1_nav">
@@ -69,10 +37,17 @@
     <div class="sec3_container">
         <div class="sec3_con_wrap">
             <div class="sec3_con">
-                <p>24.04 ~ 25.07</p>
+                <p>26.03 ~ 재직중</p>
+                <div>
+                    <p>(주)이앤초이</p>
+                    <p>제안서 작성,<br>행사 기획 및 운영,<br>현장 실행 및 무대감독,<br>웹사이트 디자인·개발</p>
+                </div>
+            </div>
+            <div class="sec3_con">
+                <p>24.04 ~ 25.08</p>
                 <div>
                     <p>(주)고구마</p>
-                    <p>프론트엔드 개발, 행사 기획 및 운영</p>
+                    <p>프론트엔드 개발,<br>행사 기획 및 운영</p>
                 </div>
             </div>
             <div class="sec3_con">
@@ -100,169 +75,150 @@
     <p class="sec_tit" id="sec4">프로젝트</p>
     <div class="sec4_nav">
         <div class="deco"></div>
-        <a href="#none" class="on">Web Frontend</a>
-        <a href="#none">Exhibition</a>
+        <a href="#none" class="on">Frontend</a>
+        <a href="#none">Planning</a>
     </div>
-    <script>
-        $('.sec4_nav a').click(function(){
-            $('.sec4_nav a').removeClass('on');
-            $(this).addClass('on');
-            if ($('.sec4_nav a:nth-child(2)').hasClass('on')) {
-                $('.sec4_nav .deco').css({left:'4px'})
-                $('.sec4_con1_wrap').css({display:'grid'});
-                $('.sec4_con2_wrap').css({display:'none'});
-                $('.sec4_btn').css({display:'flex'});
-            } else {
-                $('.sec4_nav .deco').css({left:'117px'})
-                $('.sec4_con1_wrap').css({display:'none'});
-                $('.sec4_con2_wrap').css({display:'grid'});
-                $('.sec4_btn').css({display:'none'});
-            }
-        })
-    </script>
+    
     <div class="sec4_con1_wrap">
-        <a href="https://marrimo.com" target="_blank" class="sec4_con1">
-            <div class="img"><img src="/images/port_front_01.png" alt=""></div>
+        <a href="https://tbcgolf.kr" target="_blank" class="sec4_con1">
+            <div class="img"><img src="/images/port_front_10.png" alt=""></div>
             <div class="text">
-                <p class="tit">모바일청첩장</p>
-                <p class="description">
-                    REACT를 사용하여 개발하였으며,<br>
-                    청첩장 생성, 수정, 삭제, 보기, 결제<br>
-                    기능이 있습니다.
-                </p>
+                <p class="tit">제5회 TBC전국여자골프대회 홈페이지</p>
+                <p class="description">대회 홈페이지 디자인과<br>프론트엔드·백엔드 개발을 담당했습니다.</p>
             </div>
         </a>
-        <a href="https://pomia.or.kr" target="_blank" class="sec4_con1">
-            <div class="img"><img src="/images/port_front_02.png" alt=""></div>
+        <a href="https://sigyosa.com" target="_blank" class="sec4_con1">
+            <div class="img"><img src="/images/port_front_08.png" alt=""></div>
             <div class="text">
-                <p class="tit">POMIA</p>
-                <p class="description">
-                    30개가 넘는 서브페이지의 대규모 프로젝트<br>
-                    입니다. ERP와 함께 개발 했습니다.
-                </p>
+                <p class="tit">시교사</p>
+                <p class="description">대관 신청과 대관 정보 조회를 위한<br>웹사이트 프론트엔드 개발을<br>담당했습니다.</p>
             </div>
         </a>
-        <a href="https://prohome.co.kr" target="_blank" class="sec4_con1 ta">
-            <div class="img"><img src="/images/port_front_09.png" alt=""></div>
+        <a href="https://ssartpia.kr" target="_blank" class="sec4_con1">
+            <div class="img"><img src="/images/port_front_07.png" alt=""></div>
             <div class="text">
-                <p class="tit">(주)고구마</p>
-                <p class="description">
-                    회사 소개 사이트 입니다.<br>
-                </p>
-            </div>
-        </a>
-        <a href="https://rarastl.com" target="_blank" class="sec4_con1 hi">
-            <div class="img"><img src="/images/port_front_03.png" alt=""></div>
-            <div class="text">
-                <p class="tit">라라스틸</p>
-                <p class="description">
-                    영문페이지가 있으며, ERP와 함께 개발<br>
-                    했습니다.
-                </p>
-            </div>
-        </a>
-        <a href="https://familyfesta.kr/" target="_blank" class="sec4_con1 hi">
-            <div class="img"><img src="/images/port_front_04.png" alt=""></div>
-            <div class="text">
-                <p class="tit">패밀리페스타</p>
-                <p class="description">
-                    패밀리페스타 행사 접수 데이터<br>
-                    행사장 출입 정보 등등<br>
-                    출입 키오스크와 함께 개발 했습니다.
-                </p>
-            </div>
-        </a>
-        <a href="https://dgfesta.com" target="_blank" class="sec4_con1 hi">
-            <div class="img"><img src="/images/port_front_05.png" alt=""></div>
-            <div class="text">
-                <p class="tit">대구페스타</p>
-                <p class="description">
-                    대구페스타 행사 접수 데이터<br>
-                    행사장 출입 정보 등등<br>
-                    출입 키오스크와 함께 개발 했습니다.
-                </p>
+                <p class="tit">아트피아</p>
+                <p class="description">공연·대관 정보를 제공하는<br>수성아트피아 홈페이지의<br>프론트엔드 개발을 담당했습니다.</p>
             </div>
         </a>
         <a href="https://ontpia.ssartpia.kr" target="_blank" class="sec4_con1 hi">
             <div class="img"><img src="/images/port_front_06.png" alt=""></div>
             <div class="text">
                 <p class="tit">온트피아</p>
-                <p class="description">
-                    Prezi와 연동, 작가들이 직접 본인의 작품을<br>
-                    온라인에 전시할 수 있는 가상 미술관입니다.
-                </p>
+                <p class="description">작가가 작품을 온라인에 전시하는<br>가상 미술관의 프론트엔드 개발을<br>담당했습니다.</p>
             </div>
         </a>
-        <a href="https://ssartpia.kr" target="_blank" class="sec4_con1 hi">
-            <div class="img"><img src="/images/port_front_07.png" alt=""></div>
+        <a href="https://dgfesta.com" target="_blank" class="sec4_con1 hi">
+            <div class="img"><img src="/images/port_front_05.png" alt=""></div>
             <div class="text">
-                <p class="tit">아트피아</p>
-                <p class="description">
-                    수성아트피아의 공연정보,<br>
-                    대관 정보 등을 확인 할 수 있는<br>
-                    사이트입니다.
-                </p>
+                <p class="tit">대구페스타</p>
+                <p class="description">행사 홈페이지와 출입 키오스크를<br>개발하고, 접수·출입 데이터를<br>관리했습니다.</p>
             </div>
         </a>
-        <a href="https://sigyosa.com" target="_blank" class="sec4_con1 hi">
-            <div class="img"><img src="/images/port_front_08.png" alt=""></div>
+        <a href="https://familyfesta.kr/" target="_blank" class="sec4_con1 hi">
+            <div class="img"><img src="/images/port_front_04.png" alt=""></div>
             <div class="text">
-                <p class="tit">시교사</p>
-                <p class="description">
-                    시교사의 대관 신청,대관 정보 등을<br>
-                    실시간으로 확인 할 수 있는<br>
-                    사이트입니다.
-                </p>
+                <p class="tit">패밀리페스타</p>
+                <p class="description">행사 홈페이지와 출입 키오스크를<br>개발하고, 접수·출입 데이터를<br>관리했습니다.</p>
+            </div>
+        </a>
+        <a href="https://rarastl.com" target="_blank" class="sec4_con1 hi">
+            <div class="img"><img src="/images/port_front_03.png" alt=""></div>
+            <div class="text">
+                <p class="tit">라라스틸</p>
+                <p class="description">영문 페이지를 포함한 회사 홈페이지와<br>사내 ERP 프론트엔드 개발을<br>담당했습니다.</p>
+            </div>
+        </a>
+        <a href="https://prohome.co.kr" target="_blank" class="sec4_con1 hi">
+            <div class="img"><img src="/images/port_front_09.png" alt=""></div>
+            <div class="text">
+                <p class="tit">(주)고구마</p>
+                <p class="description">회사 소개 홈페이지의<br>프론트엔드 개발을 담당했습니다.</p>
+            </div>
+        </a>
+        <a href="https://pomia.or.kr" target="_blank" class="sec4_con1 hi">
+            <div class="img"><img src="/images/port_front_02.png" alt=""></div>
+            <div class="text">
+                <p class="tit">POMIA</p>
+                <p class="description">진흥원 소개 홈페이지와 ERP의<br>화면 기획 및 프론트엔드 개발을<br>담당했습니다.</p>
+            </div>
+        </a>
+        <a href="https://marrimo.com" target="_blank" class="sec4_con1 hi">
+            <div class="img"><img src="/images/port_front_01.png" alt=""></div>
+            <div class="text">
+                <p class="tit">모바일청첩장</p>
+                <p class="description">React 기반 모바일 청첩장 서비스입니다.<br>청첩장 생성·수정·조회·결제 관련<br>프론트엔드 개발을 담당했습니다.</p>
             </div>
         </a>
     </div>
-    <div class="sec4_con2_wrap">
-        <a href="https://youtu.be/2YG0j0m1ZVc?si=CQyg0ZVyNcDkEY83" target="_blank" class="sec4_con2">
-            <div class="img"><img src="/images/familyfesta_dg.jfif" alt=""></div>
+    <div class="sec4_con2_wrap" style="display:none">
+        <div class="sec4_con2">
+            <div class="img img-placeholder" aria-label="프로젝트 이미지 준비 중"></div>
             <div class="text">
-                <p class="tit">2024 패밀리페스타 대구</p>
-                <p class="description">
-                    주최, 주관: YTN<br>
-                    규모: 약 25,000명<br>
-                </p>
+                <p class="tit">제26회 바르게살기운동 화합전진대회</p>
+                <p class="description">발주처: 바르게살기운동 경북협의회<br>주요 프로그램·퍼포먼스 기획과<br>현장 실행·무대감독을 담당했습니다.</p>
             </div>
-        </a>
-        <a href="https://youtu.be/n9HmkgKJIJs?si=jEWHcLb9ViiCvYYM" target="_blank" class="sec4_con2">
-            <div class="img"><img src="/images/familyfesta_pohang.jpg" alt=""></div>
+        </div>
+        <div class="sec4_con2">
+            <div class="img img-placeholder" aria-label="프로젝트 이미지 준비 중"></div>
             <div class="text">
-                <p class="tit">2024 패밀리페스타 경북 포항</p>
-                <p class="description">
-                    주최, 주관: 경상북도, 포항시, YTN<br>
-                    규모: 약 10,000명<br>
-                </p>
+                <p class="tit">제5회 TBC전국여자골프대회</p>
+                <p class="description">발주처: TBC<br>홈페이지 제작 및 참가자 관리,<br>현장 실행·무대감독을 담당했습니다.</p>
             </div>
-        </a>
-        <a href="#none" class="sec4_con2">
+        </div>
+        <div class="sec4_con2">
+            <div class="img img-placeholder" aria-label="프로젝트 이미지 준비 중"></div>
+            <div class="text">
+                <p class="tit">2026 WMAC 출력물 디자인·설치 용역</p>
+                <p class="description">발주처: 대구시<br>부스 현수막과 거리 배너 등<br>출력물 디자인 및 설치를 진행했습니다.</p>
+            </div>
+        </div>
+        <div class="sec4_con2 hi">
+            <div class="img img-placeholder" aria-label="프로젝트 이미지 준비 중"></div>
+            <div class="text">
+                <p class="tit">2026 경북농식품대전</p>
+                <p class="description">발주처: 경상북도<br>프로그램·이벤트·마케팅 기획부터<br>현장 실행 및 무대감독을 담당했습니다.</p>
+            </div>
+        </div>
+        <div class="sec4_con2 hi">
+            <div class="img img-placeholder" aria-label="프로젝트 이미지 준비 중"></div>
+            <div class="text">
+                <p class="tit">2026 직원한마음대회</p>
+                <p class="description">발주처: 경상북도<br>부대 프로그램 기획 및 인력 관리,<br>현장 실행·무대감독 보조를 담당했습니다.</p>
+            </div>
+        </div>
+        <div class="sec4_con2 hi">
+            <div class="img img-placeholder" aria-label="프로젝트 이미지 준비 중"></div>
+            <div class="text">
+                <p class="tit">대구 엑스코웨딩박람회</p>
+                <p class="description">발주처: 고구마<br>홈페이지·키오스크 개발과<br>이벤트 기획 및 현장 운영을 담당했습니다.</p>
+            </div>
+        </div>
+        <a href="#none" class="sec4_con2 hi">
             <div class="img"><img src="/images/daegufesta.jpg" alt=""></div>
             <div class="text">
                 <p class="tit">2025 대구페스타</p>
-                <p class="description">
-                    주최, 주관: (주)고구마<br>
-                    규모: 약 15,000명<br>
-                </p>
+                <p class="description">발주처: 고구마, 동아일보<br>웹·키오스크 개발, 이벤트 기획과<br>PT 자료 제작·현장 운영을 지원했습니다.</p>
+            </div>
+        </a>
+        <a href="https://youtu.be/n9HmkgKJIJs?si=jEWHcLb9ViiCvYYM" target="_blank" class="sec4_con2 hi">
+            <div class="img"><img src="/images/familyfesta_pohang.jpg" alt=""></div>
+            <div class="text">
+                <p class="tit">2024 패밀리페스타 경북 포항</p>
+                <p class="description">발주처: YTN, YTN 미디어랩(고구마)<br>웹·키오스크 개발, 이벤트 기획과<br>미술공모전·현장 운영을 지원했습니다.</p>
+            </div>
+        </a>
+        <a href="https://youtu.be/2YG0j0m1ZVc?si=CQyg0ZVyNcDkEY83" target="_blank" class="sec4_con2 hi">
+            <div class="img"><img src="/images/familyfesta_dg.jfif" alt=""></div>
+            <div class="text">
+                <p class="tit">2024 패밀리페스타 대구</p>
+                <p class="description">발주처: YTN, YTN 미디어랩(고구마)<br>홈페이지·키오스크 개발과<br>이벤트 기획 및 현장 운영을 지원했습니다.</p>
             </div>
         </a>
     </div>
     <a href="#none" class="sec4_btn">더보기 <img src="/images/icon_angle.png" alt="" class=""></a>
-    <script>
-        $('.sec4_btn').click(function(){
-            $(this).toggleClass('on');
-            if ($(this).hasClass('on')) {
-                $('.sec4_con1.hi').css({display:'block'})
-                $('.sec4_con1.ta').css({display:'block'})
-                $(this).html(`숨기기 <img src="/images/icon_angle.png" alt="" class="">`)
-            } else {
-                $('.sec4_con1.hi').css({display:'none'})
-                $('.sec4_con1.ta').css({display:'none'})
-                $(this).html(`더보기 <img src="/images/icon_angle.png" alt="" class="">`)
-            }
-        })
-    </script>
+    
+    
     <p class="sec_tit">Thank you</p>
     <div class="sec5_con1">
         감사합니다.<br>
@@ -275,5 +231,5 @@
     <div class="sec5_con3">
         <img src="/images/icon_mail.png" alt="" style="width: 24px;"> kimwoojin083@naver.com
     </div>
-</body>
+<script src="/interaction.js"></script></body>
 </html>
